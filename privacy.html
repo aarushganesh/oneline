@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — One Line</title>
+  <meta name="description" content="One Line's privacy policy. Short, honest, and easy to read.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --ink: #1a1714;
+      --ink-soft: #4a4640;
+      --ink-muted: #8a8580;
+      --paper: #faf8f4;
+      --paper-warm: #f5f1ea;
+      --paper-border: #e8e2d8;
+      --accent: #c4733a;
+      --accent-soft: #f0e4d4;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      line-height: 1.7;
+    }
+
+    nav {
+      padding: 20px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--paper-border);
+    }
+
+    .nav-logo {
+      font-family: 'Lora', serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .nav-back {
+      font-size: 14px;
+      color: var(--ink-muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s;
+    }
+
+    .nav-back:hover { color: var(--ink); }
+
+    .page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 24px 120px;
+    }
+
+    .page-eyebrow {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(34px, 5vw, 52px);
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: var(--ink-muted);
+      margin-bottom: 56px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--paper-border);
+    }
+
+    .summary-box {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 10px 10px 0;
+      padding: 20px 24px;
+      margin-bottom: 48px;
+    }
+
+    .summary-box p {
+      font-size: 15px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+    }
+
+    .summary-box strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    h2 {
+      font-family: 'Lora', serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-top: 48px;
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      font-size: 16px;
+      color: var(--ink-soft);
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      margin: 12px 0 16px 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul li {
+      font-size: 16px;
+      color: var(--ink-soft);
+      line-height: 1.7;
+      padding: 6px 0 6px 24px;
+      position: relative;
+      border-bottom: 1px solid var(--paper-border);
+    }
+
+    ul li:first-child { border-top: 1px solid var(--paper-border); }
+
+    ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 13px;
+      top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent-soft);
+      transition: border-color 0.2s;
+    }
+
+    a:hover { border-color: var(--accent); }
+
+    .contact-block {
+      margin-top: 56px;
+      padding: 28px 32px;
+      background: var(--paper-warm);
+      border: 1px solid var(--paper-border);
+      border-radius: 14px;
+    }
+
+    .contact-block p { margin-bottom: 8px; }
+    .contact-block p:last-child { margin-bottom: 0; }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid var(--paper-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-copy { font-size: 13px; color: var(--ink-muted); }
+
+    .footer-link {
+      font-size: 13px;
+      color: var(--ink-muted);
+      text-decoration: none;
+      border-bottom: none;
+      transition: color 0.2s;
+    }
+
+    .footer-link:hover { color: var(--ink); border-bottom: none; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">One Line</a>
+    <a href="index.html" class="nav-back">← Back to home</a>
+  </nav>
+
+  <div class="page">
+
+    <div class="page-eyebrow">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective date: May 18, 2026</p>
+
+    <div class="summary-box">
+      <p><strong>The short version:</strong> One Line does not collect, transmit, or share any of your personal data. Everything you write stays on your device. There are no servers, no accounts, and no way for us to read your journal — ever.</p>
+    </div>
+
+    <p>This privacy policy applies to the One Line app (referred to as the "Application") for mobile devices, created by Aarush Ganesh (referred to as the "Service Provider") as a free service. This service is intended for use "AS IS".</p>
+
+    <h2>Information collection and use</h2>
+    <p>The Application is designed to operate entirely on your device. The Service Provider does not collect, transmit, or store any personal information from users. Specifically, the Application does not collect:</p>
+    <ul>
+      <li>Your name, email address, or any identifying information</li>
+      <li>Your device's Internet Protocol (IP) address</li>
+      <li>The content of your journal entries, reflections, or summaries</li>
+      <li>Usage data such as pages visited, time spent, or features used</li>
+      <li>Your device's operating system or hardware details</li>
+      <li>Precise or approximate location information</li>
+    </ul>
+    <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features. All content you write remains local to your device at all times.</p>
+    <p>For a better experience, the Application stores your journal entries locally on your device using Apple's on-device storage. This information never leaves your device and is not accessible to the Service Provider.</p>
+
+    <h2>Third party access</h2>
+    <p>The Service Provider does not share any user data with third parties because no user data is collected. The Application does not integrate any third-party analytics tools, advertising SDKs, crash reporting services, or cloud backends.</p>
+    <p>The Service Provider may disclose information only in the following circumstances, none of which currently apply given that no data is collected:</p>
+    <ul>
+      <li>As required by law, such as to comply with a subpoena or similar legal process</li>
+      <li>When necessary in good faith to protect rights, safety, or to investigate fraud</li>
+      <li>With trusted service providers acting on the Service Provider's behalf, bound by this privacy policy</li>
+    </ul>
+    <p>Apple may collect certain anonymized, aggregated data through the App Store and iOS platform under their own privacy policy. This is handled entirely by Apple and is not accessible to the Service Provider in a way that identifies individual users. You can review Apple's privacy practices at <a href="https://www.apple.com/privacy/" target="_blank" rel="noopener">apple.com/privacy</a>.</p>
+
+    <h2>Opt-out rights</h2>
+    <p>You can stop all use of the Application at any time by uninstalling it. You may use the standard uninstall processes available on your mobile device or via the App Store. Uninstalling the app will remove all locally stored journal data from your device.</p>
+
+    <h2>Data retention policy</h2>
+    <p>The Service Provider does not retain any user data on external servers or systems, as no data is transmitted from your device. All journal data is stored locally on your device for as long as the Application is installed. If you wish to delete your data, you may do so by deleting the Application from your device. If you have any questions about your data, please contact the Service Provider at <a href="mailto:onelinejournalapp@gmail.com">onelinejournalapp@gmail.com</a>.</p>
+
+    <h2>Children</h2>
+    <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13. Since the Application collects no data from any user, it does not collect personally identifiable information from children either.</p>
+    <p>The Service Provider encourages parents and legal guardians to monitor their children's app usage and to help enforce this policy. If you have reason to believe that a child has submitted personally identifiable information through the Application, please contact the Service Provider at <a href="mailto:onelinejournalapp@gmail.com">onelinejournalapp@gmail.com</a> so that appropriate action can be taken.</p>
+    <p>Users must be at least 16 years of age to consent to the processing of personally identifiable information in their country (in some countries a parent or guardian may provide this consent on their behalf).</p>
+
+    <h2>Security</h2>
+    <p>The Service Provider is committed to safeguarding the confidentiality of your information. Because all data is stored locally on your device, its security depends on your device's own security settings. We strongly recommend enabling Face ID, Touch ID, or a passcode on your device. One Line also supports an in-app lock that activates automatically when you leave the app, providing an additional layer of protection.</p>
+
+    <h2>Your consent</h2>
+    <p>By using the Application, you are consenting to the data practices described in this Privacy Policy, now and as amended. Since the Application collects no personal data, your use of the Application does not involve any transmission or processing of personal information by the Service Provider.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>This Privacy Policy may be updated from time to time. The Service Provider will notify you of any changes by updating this page with the new policy and a revised effective date. You are advised to review this Privacy Policy periodically. Continued use of the Application after any changes constitutes acceptance of the updated policy.</p>
+
+    <div class="contact-block">
+      <p><strong>Contact us</strong></p>
+      <p>If you have any questions about privacy while using the Application, or about the practices described in this policy, please contact the Service Provider by email.</p>
+      <p><a href="mailto:onelinejournalapp@gmail.com">onelinejournalapp@gmail.com</a></p>
+    </div>
+
+    <footer>
+      <span class="footer-copy">© 2026 Aarush Ganesh</span>
+      <a href="index.html" class="footer-link">← Back to One Line</a>
+    </footer>
+
+  </div>
+
+</body>
+</html>
